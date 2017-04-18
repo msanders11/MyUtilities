@@ -144,7 +144,7 @@ public class DateUtilities {
      * @throws IllegalArgumentException - if number of days is less than or
      * equal to 0
      */
-    public final LocalDate getDateInFuture(int numberOfDays) throws IllegalArgumentException {
+    public final LocalDate getDateFromCurrentDate(int numberOfDays) throws IllegalArgumentException {
         LocalDate currentDate = LocalDate.now();
         if (numberOfDays <= 0) {
             throw new IllegalArgumentException("Number of days must be greater than 0");
