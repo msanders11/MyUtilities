@@ -59,7 +59,7 @@ public class DateUtilities {
             throw new IllegalArgumentException("No date provided");
         }
         setDateTimeFormat(format);
-        String stringDate = date.format(format);
+        String stringDate = date.format(dateTimeFormat);
         return stringDate;
     }
 
