@@ -34,7 +34,7 @@ public class DateUtilities {
 
     /**
      * Method sets the format of the DateTimeFormatter property when called and
-     * provided and valid dateTimeFormat.
+     * provided valid dateTimeFormat.
      * @param dateTimeFormat a <code>DateTimeFormatter</code> object
      * @throws IllegalArgumentException - if format is null
      */
